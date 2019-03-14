@@ -67,8 +67,9 @@ if($_SESSION['username'] == 'username') {
  }
  } else {
  echo "0 results";
-GIT Exercises 8 (13)
-29.12.2018
+
+
+
  }
  print("<br><br>");
  print("Insert new");
@@ -95,6 +96,8 @@ print("<input type=\"text\" name=\"city\">");
  print("");
  print("<input type=\"submit\" name=\"submit\" value=\"Save\" >");
  print("</form>");
+ }
+ print("<br><br>");
  print("</html>");
  mysqli_close($conn);
 } else {
